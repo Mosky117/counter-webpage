@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(9, 123, 74);
+    margin: 0 auto;
+}
+.number{
+    display: block;
+    font-size: 2000%;
+    text-align: center;
+}
+.inside-box{
+    display: flex;
+    justify-content: center;
+}
+#reset{
+    font-size: 100%;
+}
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 200%;
+}
+.button:hover{
+    color: rgba(2, 47, 28, 0.881);
+}
