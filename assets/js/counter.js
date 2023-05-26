@@ -9,8 +9,13 @@ function add(){
 }
 
 function subtract(){
-    count-=1;
-    document.querySelector('.number').innerHTML=count;
+    if(document.querySelector('.number').innerHTML==0){
+        alert('Start adding some positive values');
+    }
+    else{
+        count-=1;
+        document.querySelector('.number').innerHTML=count;
+    }
 }
 
 function reset(){
